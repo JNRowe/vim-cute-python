@@ -35,6 +35,7 @@ syntax match pyNiceOperator "\( \|\)\*\*\( \|\)3\>" conceal cchar=³
 syntax match pyNiceOperator "\( \|\)\*\*\( \|\)n\>" conceal cchar=ⁿ
 
 syntax keyword pyNiceStatement lambda conceal cchar=λ
+syntax keyword pyNiceStatement None conceal cchar=∅
 
 hi link pyNiceOperator Operator
 hi link pyNiceStatement Statement
